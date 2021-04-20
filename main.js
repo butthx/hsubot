@@ -6,7 +6,7 @@ if(!fs.existsSync("./config.js")){
   API_HASH: "${String(process.env.api_hash)}",
   pathTDLib : './tdlib/libtdjson.so',
   BOT_API: ${Boolean(String(process.env.bot_api))},
-  BOT_TOKEN: "${String(process.env.bot_token)}"",
+  BOT_TOKEN: "${String(process.env.bot_token)}",
   debug: {
     active: ${Boolean(String(process.env.debug_mode))},
     level: ${Number(process.env.debug_level)||1}
