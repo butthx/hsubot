@@ -14,7 +14,7 @@ if(!fs.existsSync("./config.js")){
   admin:
   {
     active: ${Boolean(String(process.env.admin_mode))},
-    id: ${[Number(process.env.admin_id)||"OWNER_ID"]},
+    id: [${Number(process.env.admin_id)}],
   },
 }`
   fs.writeFileSync("./config.js",dataFs)
