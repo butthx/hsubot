@@ -34,6 +34,7 @@ if(!fs.existsSync("./config.js")){
   skipme: false,
 }`
   fs.writeFileSync("./config.js",dataFs)
+  console.log(fs.readFileSync("./config.js","utf8"))
 }
 
 // milai import module
