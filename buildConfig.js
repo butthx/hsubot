@@ -20,7 +20,7 @@ let dataFs = `module.exports = {
   plugins: {
     bash: ${process.env.bash || false},
     debugJSON: ${process.env.debugJSON || false}, 
-    parseMode: ${process.env.parseMode || true},
+    parseMode: ${process.env.parseMode || false},
     foto: ${process.env.foto || true}, 
     dokumen : ${process.env.dokumen || true}, 
     video: ${process.env.video || true}, 
