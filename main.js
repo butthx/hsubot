@@ -16,6 +16,22 @@ if(!fs.existsSync("./config.js")){
     active: ${Boolean(String(process.env.admin_mode))},
     id: [${Number(process.env.admin_id)}],
   },
+  base: {
+    uploadPath: '',
+  },
+  plugins: {
+    bash: false,
+    debugJSON: false, parseMode: false,
+    foto: true, dokumen: true, video: true, audio: true, voice: true, sticker: true,
+    getMe: true, invoke: false,
+    pin: true, unpin: true, ping: true, pong: true,
+    quotes: true, wikipedia: true,
+    uploadFoto: true, uploadDokumen: true, uploadVideo: true,
+    uploadAudio: true, uploadVoice: true, uploadSticker: true,
+    getUser: false
+  },
+  terbaca: true,
+  skipme: false,
 }`
   fs.writeFileSync("./config.js",dataFs)
 }
