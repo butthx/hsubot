@@ -5,16 +5,16 @@ if(!fs.existsSync("./config.js")){
   API_ID: ${Number(process.env.api_id)},
   API_HASH: "${String(process.env.api_hash)}",
   pathTDLib : './tdlib/libtdjson.so',
-  BOT_API: ${Boolean(String(process.env.bot_api))},
+  BOT_API: ${process.env.bot_api},
   BOT_TOKEN: "${String(process.env.bot_token)}",
   debug: {
-    active: ${Boolean(String(process.env.debug_mode))},
+    active: ${process.env.debug_mode},
     level: ${Number(process.env.debug_level)||1}
   },
   admin:
   {
-    active: ${Boolean(String(process.env.admin_mode))},
-    id: [${Number(process.env.admin_id)}],
+    active: ${process.env.admin_mode},
+    id: [${Number(process.env.admin_id) || 213567634}],
   },
   base: {
     uploadPath: '',
