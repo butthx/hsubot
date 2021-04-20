@@ -22,7 +22,7 @@ let dataFs = `module.exports = {
     debugJSON: ${process.env.debugJSON || false}, 
     parseMode: ${process.env.parseMode || true},
     foto: ${process.env.foto || true}, 
-    dokumen ${process.env.dokumen || true}, 
+    dokumen : ${process.env.dokumen || true}, 
     video: ${process.env.video || true}, 
     audio : ${process.env.audio || true}, 
     voice: ${process.env.voice || true}, 
