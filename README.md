@@ -86,7 +86,7 @@ Baca disini tentang [plugins](https://github.com/banghasan/hsubot/blob/main/doc/
 
 ### Heroku
 
-Catatan tentang [Heroku](https://github.com/banghasan/hsubot/blob/main/doc/heroku.md)
+Catatan tentang [Heroku](https://github.com/butthx/hsubot/blob/main/doc/heroku.md)
 
 Mohon kabari kalau sudah bisa jalan userbot di situ ^^
 
