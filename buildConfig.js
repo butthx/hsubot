@@ -28,7 +28,7 @@ let dataFs = `module.exports = {
     voice: ${process.env.voice || true}, 
     sticker: ${process.env.sticker || true},
     getMe: ${process.env.getMe || true}, 
-    invoke: ${process.env.invoke || true},
+    invoke: ${process.env.invoke || false},
     pin: ${process.env.pin || true}, 
     unpin: ${process.env.unpin || true}, 
     ping: ${process.env.ping || true}, 

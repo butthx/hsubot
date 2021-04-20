@@ -9,7 +9,7 @@ Hasil test menggunakan Bot API lancar. Userbot test pake mode run console, berja
 Ini test saja, bener atau gak silakan dicoba-coba.
 
 <p align="center">Tekan tombol dibawah ini dan buat app heroku baru, <b>lalu isi variable variable yang diperlukan</b></p>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/banghasan/hsubot/tree/main"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/butthx/hsubot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
 
 ### Userbot
 
