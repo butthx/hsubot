@@ -21,7 +21,7 @@
     },
     "bot_api": {
       "description": "Jika anda ingin menggunakan bot api variable diisi true.",
-      "value": "false",
+      "value": "true",
       "required": false
     },
     "debug_mode": {
@@ -35,12 +35,132 @@
     },
     "admin_mode": {
       "description": "Jika ingin bot hanya bisa digunakan admin isi variable ini true.",
-      "value": "true",
+      "value": "false",
       "required": false
     },
     "admin_id": {
       "description": "Jika admin mode true maka var ini diisi dengan id kamu.",
       "required": false
+    },
+    "bash": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command bash",
+      "required": false,
+      "value": "false"
+    },
+    "debugJSON": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command debugJSON",
+      "required": false,
+      "value": "false"
+    },
+    "parseMode": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command parseMode",
+      "required": false,
+      "value": "false"
+    },
+    "foto": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command foto",
+      "required": false,
+      "value": "true"
+    },
+    "dokumen": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command dokumen",
+      "required": false,
+      "value": "true"
+    },
+    "video": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command video",
+      "required": false,
+      "value": "true"
+    },
+    "audio": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command audio",
+      "required": false,
+      "value": "true"
+    },
+    "voice": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command voice",
+      "required": false,
+      "value": "true"
+    },
+    "sticker": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command sticker",
+      "required": false,
+      "value": "true"
+    },
+    "getMe": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command getMe",
+      "required": false,
+      "value": "true"
+    },
+    "invoke": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command invoke",
+      "required": false,
+      "value": "false"
+    },
+    "pin": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command pin",
+      "required": false,
+      "value": "true"
+    },
+    "unpin": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command unpin",
+      "required": false,
+      "value": "true"
+    },
+    "ping": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command ping",
+      "required": false,
+      "value": "true"
+    },
+    "pong": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command pong",
+      "required": false,
+      "value": "true"
+    },
+    "quotes": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command quotes",
+      "required": false,
+      "value": "true"
+    },
+    "wikipedia": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command wiki",
+      "required": false,
+      "value": "true"
+    },
+    "uploadFoto": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command uploadFoto",
+      "required": false,
+      "value": "true"
+    },
+    "uploadDokumen": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command uploadDokumen",
+      "required": false,
+      "value": "true"
+    },
+    "uploadVideo": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command uploadVideo",
+      "required": false,
+      "value": "true"
+    },
+    "uploadAudio": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command uploadAudio",
+      "required": false,
+      "value": "true"
+    },
+    "uploadVoice": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command uploadVoice",
+      "required": false,
+      "value": "true"
+    },
+    "uploadSticker": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command uploadSticker",
+      "required": false,
+      "value": "true"
+    },
+    "getUser": {
+      "description": "Jika kamu ingin mengaktifkan/menonaktifkan command getUser",
+      "required": false,
+      "value": "false"
     }
   },
   "buildpacks": [
