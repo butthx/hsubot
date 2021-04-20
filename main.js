@@ -5,7 +5,7 @@ if(!fs.existsSync("./config.js")){
   // di dapat dari https://my.telegram.org/
   API_ID: ${Number(process.env.api_id)},
   API_HASH: ${String(process.env.api_hash)},
-  pathTDLib : ${'./tdlib/libtdjson.so'},
+  pathTDLib : './tdlib/libtdjson.so',
   // aktifkan jika pakai bot API
   BOT_API: ${Boolean(String(process.env.bot_api))},
   // HANYA jika BOT_API true, token bot API dari @botfather
